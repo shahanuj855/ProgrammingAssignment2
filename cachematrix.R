@@ -30,7 +30,7 @@ cacheSolve <- function(x, ...) {
   i
 }
 
-B <- matrix(c(1,2,3,4),2,2)
-B1 <- makeCacheMatrix(B)
-cacheSolve(B1)
-cacheSolve(B1)
+X <- matrix(c(1,2,3,4),2,2)
+Y <- makeCacheMatrix(X)
+cacheSolve(Y)
+cacheSolve(Y)#To get from cached value
